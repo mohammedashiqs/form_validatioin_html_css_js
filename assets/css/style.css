@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.container{
+    display: flex;
+}
+
+
+.form_and_table{
+    padding: 30px;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+/* contact-form */
+
+.contact-form{
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    background-color: gainsboro;
+    border: 1.5px solid black;
+    
+}
+
+
+
+.contact-form table td{
+    padding: 8px;
+    text-align: center;
+}
+.contact-form  #fullName, #emailId, #mobNum, #city{
+    height: 30px;
+    width: 250px;
+}
+
+#sub-btn, #res-btn {
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+}
+
+#sub-btn{
+    background-color: rgb(0, 140, 255);
+}
+
+#res-btn{
+    background-color: red;
+}
+
+
+/* table pc_view */
+
+.my-tables .pc_view{
+    border-collapse: collapse;
+    background-color: gainsboro;
+    width: max-content;
+}
+
+
+
+
+
+.my-tables .pc_view tr th, .my-tables .pc_view tr td{
+    border: 1px solid black;
+    padding: 10px;
+    min-width: 130px;
+    max-width: 150px;
+}
+
+.my-tables .tab_and_mob_view{
+    display: none
+}
+
+
+/* Table Tab and mobile view */
+
+.my-tables .tab_and_mob_view{
+    border-collapse: collapse;
+    background-color: grey;
+    width: max-content;
+    margin: 10px;
+}
+
+
+.my-tables .tab_and_mob_view tr td{
+    border: 1px solid black;
+    padding: 5px 20px;
+}
+
+
+
+
+

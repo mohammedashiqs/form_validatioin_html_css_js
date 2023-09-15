@@ -1,0 +1,60 @@
+/* Mob */
+@media(max-width:764px){
+
+    .contact-form{
+        padding: 10px;
+        
+    }
+
+    .contact-form  #fullName, #emailId, #mobNum, #city{
+        height: 25px;
+        width: 210px;
+    }
+
+    .my-tables .tab_and_mob_view{
+        display: block;
+    }
+
+    .my-tables .tab_and_mob_view tr td{
+        padding: 5px 5px;
+        font-size: 15px;
+    }
+
+    .my-tables .pc_view {
+        display: none
+    }
+
+    .form_and_table{
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* TAB */
+@media(min-width: 765px) and (max-width:1178px){
+    .my-tables .tab_and_mob_view{
+        display: block
+    }
+
+    .my-tables .pc_view {
+        display: none
+    }
+
+    .my-tables .tab_and_mob_view tr td{
+        border: 1px solid black;
+        padding: 10px 50px;
+    }
+
+}
