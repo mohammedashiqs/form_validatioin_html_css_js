@@ -23,7 +23,7 @@
     width: fit-content;
     height: fit-content;
     padding: 30px;
-    background-color: gainsboro;
+    background-color: rgb(230, 182, 253);
     border: 1.5px solid black;
     
 }
@@ -58,7 +58,7 @@
 
 .my-tables .pc_view{
     border-collapse: collapse;
-    background-color: gainsboro;
+    background-color: rgb(230, 182, 253);
     width: max-content;
 }
 
@@ -82,7 +82,7 @@
 
 .my-tables .tab_and_mob_view{
     border-collapse: collapse;
-    background-color: grey;
+    background-color: rgb(230, 182, 253);
     width: max-content;
     margin: 10px;
 }

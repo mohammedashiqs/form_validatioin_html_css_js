@@ -12,32 +12,32 @@
 <body>
     <div class="form_and_table container">
         <section class="contact-form">
-            <form action="" autocomplete="on" id="contact-form">
+            <form id="contact-formm" autocomplete="on" >
                 <table>
                     <caption>
                         <h1>Contact Form</h1>
                     </caption>
                     <tr>
                         <td><label for="fullName">Full Name</label><br>
-                            <input type="text" name="fullName" id="fullName" onkeyup="validateName()">
+                            <input type="text" name="fullName" id="fullName">
                             <p id="fullNameError"></p>
                         </td>
                     </tr>
                     <tr>
                         <td><label for="emailId">Email id</label><br>
-                            <input type="gmail" name="emailId" id="emailId" onkeyup="validateEmail()">
+                            <input type="gmail" name="emailId" id="emailId">
                             <p id="emailIdError"></p>
                         </td>
                     </tr>
                     <tr>
                         <td><label for="mobNum">Mobile number</label><br>
-                            <input type="text" name="mobNum" id="mobNum" onkeyup="validateMobNum()">
+                            <input type="text" name="mobNum" id="mobNum">
                             <p id="mobNumError"></p>
                         </td>
                     </tr>
                     <tr>
                         <td><label for="city">City</label><br>
-                            <select name="city" id="city" onchange="validateCity()">
+                            <select name="city" id="city"">
                                 <option value="" selected>Choose city name</option>
                                 <option value="trivandrum">Trivandrum</option>
                                 <option value="kochi">Kochi</option>
@@ -51,9 +51,9 @@
                     <tr>
                         <td>
                             <p>Gender</p>
-                            <input type="radio" name="gender" value="male" id="male" onchange="validateGender()">
+                            <input type="radio" name="gender" value="male" id="male">
                             <label for="gender">Male</label>
-                            <input type="radio" name="gender" value="female" id="female" onchange="validateGender()">
+                            <input type="radio" name="gender" value="female" id="female">
                             <label for="gender">Female</label>
                             <p id="genderError"></p>
                         </td>
@@ -75,7 +75,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <button id="sub-btn" type="button"  onclick="submitFrom(event)">Submit</button>
+                            <button id="sub-btn" type="submit">Submit</button>
                             <button id="res-btn" type="reset">Reset</button>
                             <p id="submitError"></p>
                         </td>
