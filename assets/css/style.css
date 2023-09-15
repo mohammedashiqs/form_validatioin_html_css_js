@@ -73,18 +73,37 @@
     max-width: 150px;
 }
 
-.my-tables .tab_and_mob_view{
-    display: none
+.my-tables .pc_view tr th{
+    background-color: rgb(179, 0, 255);
+    color: white;
+}
+
+.my-tables .pc_view tr:nth-child(even){
+    background-color: rgb(247, 229, 255);
 }
 
 
 /* Table Tab and mobile view */
 
 .my-tables .tab_and_mob_view{
+    display: none
+}
+
+.my-tables .tab_and_mob_view{
     border-collapse: collapse;
     background-color: rgb(230, 182, 253);
     width: max-content;
     margin: 10px;
+}
+
+
+
+
+.my-tables .tab_and_mob_view #user_data_tab_and_mob tr:nth-child(6n+1){
+    background-color: rgb(179, 0, 255);
+    color: white;
+    border-spacing:0 15px;
+    border-collapse:separate;
 }
 
 

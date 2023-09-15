@@ -158,7 +158,7 @@ function form_handler(e) {
 
 
         /* insert data to tab_mobile_view table */
-        document.getElementById("tab_and_mob_view").innerHTML +=
+        document.getElementById("user_data_tab_and_mob").innerHTML +=
     `<tr>
         <td>Full Name</td>
         <td>${fullName}</td>
