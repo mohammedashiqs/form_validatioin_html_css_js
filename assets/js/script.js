@@ -160,7 +160,7 @@ function submitFrom(e) {
 
 
 
-        document.getElementById("contact-form").submit();
+        document.getElementById("contact-form")/* .submit() */;
         // document.getElementById("contact-form").reset();
         alert("You have successfully submitted")
 
@@ -175,11 +175,11 @@ function submitFrom(e) {
 
         tab_and_mob_view.innerHTML += `<tr>
         <td>Full Name</td>
-        <td>>${fullName}</td>
+        <td>${fullName}</td>
     </tr>
     <tr>
         <td>Email Id</td>
-        <td>>${emailId}</td>
+        <td>${emailId}</td>
     </tr>
     <tr>
         <td>Mobile Number</td>
